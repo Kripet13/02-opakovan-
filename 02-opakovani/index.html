@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<script src="script.js"></script>
+
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <input type="date" id="vek">
+        <button onclick="odhalVek(document.getElementById('vek'));">zkontroluj věk</button>
+        <p id="jeOsmnact"></p>
+        <table id="jednaDeset" hidden>
+        </table>
+        <div hidden id="kontejner">
+            <input type="number" id="levaStrana"> <input type="number" id="pravaStrana">
+            <button class="dech" onclick="suma(document.getElementById('levaStrana').value, document.getElementById('pravaStrana').value,document.getElementById('vysledek'))">=</button>
+            <input id="vysledek">
+        </div>
+    </body>
+</html>
+
+
